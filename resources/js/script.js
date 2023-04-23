@@ -71,7 +71,8 @@ function updateCountdown() {
   const timeStr = `${days}일 ${hours}:${minutes}:${seconds}`;
 
   // 화면 업데이트
-  countdownElement.innerHTML = timeStr;
+  if(countdownElement)
+    countdownElement.innerHTML = timeStr;
 }
 
 // 1초마다 타이머 업데이트
