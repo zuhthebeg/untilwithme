@@ -15,51 +15,66 @@
     <title>Until With me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <script async src="script.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <script async src="resources/js/script.js"></script>
+    <link rel="stylesheet" href="resources/css/styles.css" />
       
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cutive+Mono'>
   </head>
   <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v16.0&appId=1505832316296217&autoLogAppEvents=1" nonce="CgFs2i4h"></script>
     <main>
       <section class="mast">
-        <figure class="mast__bg" style="background-image:url(bg.jpg)"></figure>
+        <figure class="mast__bg" style="background-image:url(resources/images/bg.jpg)"></figure>
 
         <header class="mast__header">
           <!-- <a>
             <img src="h.png" style="max-width:300px;" alt="target">
           </a> -->
            
-          <h1 class="mast__title js-spanize">xxx를 기억하며 </h1> 
+          <h1 class="mast__title js-spanize">떠난 이들을 기억하며 </h1> 
           <hr class="sep"/>
           <p class="mast__text js-spanize">
-          항상 저희들의 기억 속에 살아있을께요. 
-          제 이름은 xxx입니다. 제가 떠난 이후로도 저를 기억해주시면 감사하겠습니다.
+소중한 대상이 떠난 순간은 
+익숙해 질 수 없는 고통입니다
+그 슬픔을 위로할 방법없이
+그저 기억에서 사라지는 것은 더욱 가슴 아픈 일이지요
+
+          </p>
+          <p class="mast__text js-spanize">          
+누군가는 기필코 떠나고 
+떠나는 이는 누군가의 기억 속에 살아갑니다
+한동안 혹은 영원히
+기억속 슬픈 장면들은 서서히 추억이 되어 
+남은 사람들을 살아가게 합니다
+
           </p>
 
-          <pre>
+          <p class="mast__text js-spanize">
+우리는 바쁜 삶 속에서 이제는 사라져가는 
+떠난 이에 대한 마지막 인사를 하고
+추억을 서서히 보내주려합니다 
 
+어쩌면 그것이 남은 사람들을 위한 
+최선의 위로가 될지도 모르니까요
+여기, 당신의 소중한 대상이 기다리고 있습니다
 
+            <div>
+              <img src="resources/images/f.png" alt="국화 이미지" id="flower-img">
+              <input type="hidden" value="0" id="count">
+            </div>
+            국화 꽃 하나를 남겨주세요.
+          </p>
 
+          
+<pre>
+떠난 이를 추모하고 기억하는 공간입니다.
+페이지는 49일 동안 유지되며 접속이 없으면 자동으로 삭제됩니다. 
+</pre>
+       
 
-
-
-
-            이 페이지는 죽은 사람들을 추모하고 그들을 기억하는 공간으로
-            사용자는 해당 사람의 이름과 추모글을 작성하여 올릴 수 있으며, 
-            해당 페이지는 49일 동안 존재한 뒤에 자동으로 삭제됩니다. 
-          </pre>
-
-          <div>
-            <img src="f.png" alt="국화 이미지" id="flower-img">
-            <span id="count">0</span>
-          </div>
 
         </header>
+
       </section>
-      <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
     </main>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
   </body>
