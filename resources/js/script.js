@@ -68,7 +68,7 @@ function updateCountdown() {
   const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
   // 출력 문자열 설정
-  const timeStr = `${days}일 ${hours}시간 ${minutes}분 ${seconds}`;
+  const timeStr = `${days}일 ${hours}:${minutes}:${seconds}`;
 
   // 화면 업데이트
   countdownElement.innerHTML = timeStr;
